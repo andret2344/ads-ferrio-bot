@@ -1,0 +1,16 @@
+[versions]
+slf4j = "2.0.17"
+log4j = "2.25.4"
+jda = "6.4.1"
+gson = "2.14.0"
+junit = "5.12.2"
+
+[libraries]
+slf4j-api = { group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j" }
+log4j-slf4j-impl = { group = "org.apache.logging.log4j", name = "log4j-slf4j2-impl", version.ref = "log4j" }
+log4j-core = { group = "org.apache.logging.log4j", name = "log4j-core", version.ref = "log4j" }
+jda = { group = "net.dv8tion", name = "JDA", version.ref = "jda" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+junit-bom = { group = "org.junit", name = "junit-bom", version.ref = "junit" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter" }
+junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher" }

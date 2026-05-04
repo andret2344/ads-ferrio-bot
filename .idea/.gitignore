@@ -1,0 +1,10 @@
+/dataSources/
+/httpRequests/
+/queries/
+/shelf/
+
+/compiler.xml
+/dataSources.local.xml
+/gradle.xml
+/misc.xml
+/workspace.xml
