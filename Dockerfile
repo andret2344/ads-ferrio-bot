@@ -1,4 +1,4 @@
-FROM openjdk:25-slim
+FROM amazoncorretto:25-alpine-jdk
 
 LABEL org.opencontainers.image.title="ads-ferrio-bot"
 LABEL org.opencontainers.image.authors="Andret2344"
