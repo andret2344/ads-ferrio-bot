@@ -26,7 +26,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("eu.andret.ads.ferrio.Ferrio")
+    mainClass.set("eu.andret.ads.ferrio.FerrioBot")
 }
 
 tasks {
